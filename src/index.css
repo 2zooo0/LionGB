@@ -117,3 +117,24 @@ input::placeholder {
     padding:5px;
     */
 }
+
+#getGbtn {
+    position:static;
+    background-color: #F0f0f0;
+    border: none;
+    border-radius: 20px;
+    padding:5px;
+    width: 80%;
+    margin: 3px auto;
+
+}
+
+#getGbtn:hover {
+    position:static;
+    background-color:rgb(5, 5, 126);
+    color: white;
+    /*border: none;
+    border-radius: 20px;
+    padding:5px;
+    */
+}
