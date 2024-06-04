@@ -1,5 +1,6 @@
 import {baseURL, container, GuestList, newGuest, GList, newG} from './api.js';
 import { getData } from './getG.js';
+import "./index.js";
 
 //새로운 방명록 생성(작성)
 

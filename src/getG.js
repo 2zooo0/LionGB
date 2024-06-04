@@ -1,5 +1,6 @@
 import {baseURL, container, GuestList, newGuest, GList, newG} from './api.js';
 import { delData } from './delG.js';
+import "./index.js"
 
 
 //방명록 리스트 조회(시간순 정렬)
@@ -7,7 +8,7 @@ async function getData() {
     //const url= `${baseURL}/`;
     const fetchData = await fetch(baseURL);
     const toJson = await fetchData.json();
-    //console.log(toJson);
+    console.log(toJson);
     
     //불러온 기록 정렬하기(GuestListdksdp Glist박스들 쌓이게, 한 기록이 한 GList)
     toJson.map((data)=> {
