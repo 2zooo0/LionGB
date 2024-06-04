@@ -46,10 +46,10 @@ function newData() {
             return response.json()})
         .then((response) => {
             console.log(response);
-            //getData();
+            getData();
         //.catch((error)=>console.log(error));
         })
-        location.reload();
+        //location.reload();
        
     }
 

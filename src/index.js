@@ -1,13 +1,12 @@
 import './index.css';
 import './api.js';
-import * as newinfo from './newG.js';
-import * as getinfo from './getG.js';
 import { delData } from './delG.js';
+import { newData } from './newG.js';
+import { getData } from './getG.js';
 
-//window.onload = getData();
 
 const submitbtn = document.getElementById('submitbtn');
-document.getElementById('submitbtn').addEventListener('click', newinfo.newData());
+document.getElementById('submitbtn').addEventListener('click', newData);
 
 const getGbtn = document.getElementById('getGbtn');
-document.getElementById('getGbtn').addEventListener('click', getinfo.getData());
+document.getElementById('getGbtn').addEventListener('click',getData);
