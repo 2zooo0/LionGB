@@ -1,5 +1,5 @@
 import {baseURL, container, GuestList, newGuest, GList, newG} from './api.js';
-import { getData, list } from './getG.js';
+import { getData } from './getG.js';
 
 //getG에서 생성된 delBtn클릭시 delData()함수 실행됨.
 
