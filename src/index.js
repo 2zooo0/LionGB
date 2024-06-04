@@ -10,4 +10,4 @@ const submitbtn = document.getElementById('submitbtn');
 document.getElementById('submitbtn').addEventListener('click', newData);
 
 const getGbtn = document.getElementById('getGbtn');
-document.getElementById('getGbtn').addEventListener('click', getData );
+document.getElementById('getGbtn').addEventListener('click', getData);
